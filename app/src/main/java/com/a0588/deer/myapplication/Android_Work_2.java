@@ -36,7 +36,7 @@ public class Android_Work_2 extends AppCompatActivity implements View.OnClickLis
         bt9.setOnClickListener(this);
         Button bt0=(Button) findViewById(R.id.button_0);
         bt0.setOnClickListener(this);
-        Button btc=(Button) findViewById(R.id.clear_button);
+        Button btc=(Button) findViewById(R.id.button_clear);
         btc.setOnClickListener(this);
 
     }
@@ -91,7 +91,7 @@ public class Android_Work_2 extends AppCompatActivity implements View.OnClickLis
 
             }
         }
-        if (id == R.id.clear_button) {
+        if (id == R.id.button_clear) {
             this.str="";
             TextV.setText(this.str);
         }
